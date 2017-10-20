@@ -4,6 +4,7 @@ body {
 
 .heading {
     font-family: 'Slabo 27px', serif;
+    color: #ba3f3f;
 }
 
 nav {
@@ -29,6 +30,15 @@ nav {
 
 .navbar-right {
     padding-right: 50px;
+}
+
+.navbar-right > li > a {
+    color: #73a568;
+}
+
+#map {
+    height: 500px;
+    width: 100%;
 }
 
 
@@ -62,3 +72,33 @@ nav {
     list-style-type: none;
 }
 /* About Page */
+
+/* Personalities */
+.personality {
+    margin-bottom: 0px;
+}
+
+.description {
+    margin-top: 0px;
+    color: #73a568;
+}
+
+.item {
+    background-color: #333333;
+    padding-bottom: 25px;
+}
+/* Personalities */
+
+.owl-carousel .owl-dot {
+    visibility: hidden;
+}
+
+.owl-carousel .owl-nav .owl-next, .owl-carousel .owl-nav .owl-prev {
+    border-radius: 0px;
+    color: #ffffff;
+    background: #ba3f3f;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
