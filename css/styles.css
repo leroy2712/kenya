@@ -1,0 +1,64 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.heading {
+    font-family: 'Slabo 27px', serif;
+}
+
+nav {
+    border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#nav-brand {
+    font-size: 2.5em;
+    padding-left: 50px;
+    color: #ba3f3f;
+}
+
+#nav-brand:hover{
+    color: #ffffff;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    transition: 0.5s ease;
+}
+
+.navbar-right {
+    padding-right: 50px;
+}
+
+
+/* Index Page */
+#home-title {
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 25px;
+    padding-top: 100px;
+    font-size: 3em;
+}
+
+#index {
+    background-image:url(../images/bg.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;    
+}
+/* Index Page */
+
+
+/* About Page */
+.content {
+    font-size: 1.3em;
+}
+
+.facts {
+    font-weight: 700;
+}
+
+.quick-facts {
+    list-style-type: none;
+}
+/* About Page */
