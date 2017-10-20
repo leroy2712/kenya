@@ -102,3 +102,23 @@ nav {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+/* essentials */
+.collapse-btn {
+    width: 80%;
+    background-color: #ba3f3f;
+    color: #ffffff;
+    height: 50px;
+    border: 0px;
+    border-radius: 0px;
+    margin-bottom: 10px;
+}
+
+.collapse {
+    color: #73a568;
+}
+
+.info {
+    list-style-type: none;
+}
+/* essentials */
