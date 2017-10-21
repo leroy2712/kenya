@@ -114,6 +114,14 @@ nav {
     margin-bottom: 10px;
 }
 
+.collapse-btn:hover {
+    background-color: #333333;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    transition: 0.5s ease;
+}
+
 .collapse {
     color: #73a568;
 }
@@ -122,3 +130,32 @@ nav {
     list-style-type: none;
 }
 /* essentials */
+
+/* footer */
+footer {
+    background-color: #333333;
+    margin-top: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.extras {
+    color: #ffffff;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.extras > li:hover {
+    color: #73a568;
+    cursor: pointer;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    transition: 0.5s ease;
+}
+
+.closing {
+    color: #ffffff;
+    font-family: 'Slabo 27px', serif;
+}
+/* footer */
